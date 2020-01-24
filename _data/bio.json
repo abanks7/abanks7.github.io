@@ -4,9 +4,9 @@
     "label": "Student",
     "picture": "https://abanks7.github.io/images/aaron_head.jpg",
     "email": "abanks7@hawaii.edu",
-    "phone": "619-719-1910",
+    "phone": "(619) 719-1910",
     "website": "https://abanks7.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in at the University of Hawaii. I expect to graduate.",
+    "summary": "Currently studying for a B.S. in Computer Science in at the University of Hawaii. I expect to graduate in Spring 2022, and would like to focus on the development of software for embedded systems and microcontrollers.",
     "location": {
       "address": "",
       "postalCode": "96789",
@@ -83,15 +83,16 @@
   "work": [
     {
       "company": "United States Army",
-      "position": "Combat Medic & Paratrooper",
+      "position": "Combat Medic (Airborne)",
       "website": "",
       "startDate": "2008-01-01",
       "endDate": "2018-01-01",
       "summary": "",
       "highlights": [
-        "Responsible for the health and wellbeing of between 40-110 soldiers",
+        "Responsible for the health and wellbeing of soldiers",
         "Expert in trauma management and field medicine",
-        "Multiple deployments overseas to austere enviorments"
+        "Multiple deployments overseas to austere enviorments",
+        "Lead and supervised junior medics through deployments and field exercises"
       ]
     }
   ],
@@ -128,12 +129,6 @@
       "date": "2013-Present",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
     }
   ],
   "references": [
