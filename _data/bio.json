@@ -6,7 +6,7 @@
     "email": "abanks7@hawaii.edu",
     "phone": "(619) 719-1910",
     "website": "https://abanks7.github.io",
-    "summary": "Currently studying for a B.S. in Computer Science in at the University of Hawaii. I expect to graduate in Spring 2022, and would like to focus on the development of software for embedded systems and microcontrollers.",
+    "summary": "Currently studying for a B.S. in Computer Science at the University of Hawaii, expecting to graduate in Spring 2022. I would like to focus on low-level programming for microcontrollers and embedded systems.",
     "location": {
       "address": "",
       "postalCode": "96789",
@@ -29,10 +29,8 @@
   },
   "interests": [
     {
-      "name": "Embedded Systems",
+      "name": "Low-Level Programming",
       "keywords": [
-        "Arduino",
-        "Raspberry Pi"
       ]
     },
     {
@@ -41,8 +39,10 @@
       ]
     },
     {
-      "name": "Low-Level Programming",
+      "name": "Embedded Systems",
       "keywords": [
+        "Arduino",
+        "Raspberry Pi"
       ]
     }
   ],
@@ -92,7 +92,7 @@
         "Responsible for the health and wellbeing of soldiers",
         "Expert in trauma management and field medicine",
         "Multiple deployments overseas to austere enviorments",
-        "Lead and supervised junior medics through deployments and field exercises"
+        "Lead and supervised teams of junior medics"
       ]
     }
   ],
