@@ -13,7 +13,7 @@ labels:
 summary: My team developed a smart door and lock with visual feedback for a hackathon.
 ---
 
-<img src="../images/smartdoor.jpg">
+<img src="images/smartdoor.jpg">
 
 For Physics 171 at Leeward Community College we held a hackathon in which teams had to develop a project that used some sort of physical sensor. Our team chose to use magnetic hall effect sensors to build a "smart" door and lock combo that would give feedback to the user on the status of both the door and the lock. Through both console output, and visually using RGB LEDs, we were able to build a concept door and lock system that would report to the user whether the door was open or closed and either locked or unlocked.
 
