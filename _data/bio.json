@@ -41,7 +41,7 @@
       ]
     },
     {
-      "name": "Low-Level Programmingw",
+      "name": "Low-Level Programming",
       "keywords": [
       ]
     }
@@ -82,27 +82,16 @@
   ],
   "work": [
     {
-      "company": "U.S. Army",
-      "position": "Senior Medic",
-      "website": "",
-      "startDate": "2012-08-01",
-      "endDate": "2017-11-15",
-      "summary": "",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "U.S. Army",
-      "position": "Junior Medic",
+      "company": "United States Army",
+      "position": "Combat Medic & Paratrooper",
       "website": "",
       "startDate": "2008-01-01",
-      "endDate": "2012-03-15",
+      "endDate": "2018-01-01",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Responsible for the health and wellbeing of between 40-110 soldiers",
+        "Expert in trauma management and field medicine",
+        "Multiple deployments overseas to austere enviorments"
       ]
     }
   ],
@@ -141,10 +130,10 @@
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
     }
   ],
   "references": [
