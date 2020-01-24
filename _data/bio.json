@@ -96,20 +96,6 @@
       ]
     }
   ],
-  /**
-  "volunteer": [
-    {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-      ]
-    }
-  ],
-*/
   "awards": [
     {
       "title": "1st Place Physics Hackathon",
