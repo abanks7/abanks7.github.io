@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/lockslide.jpg
 title: Smart Door & Lock
-permalink: projects/micromouse
+permalink: projects/smartdoor
 # All dates must be YYYY-MM-DD format!
 date: 2019-04-01
 labels:
