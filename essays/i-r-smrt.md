@@ -31,8 +31,8 @@ I'm not familiar with C++, but the author that posed the question has given info
 
 The answers are thorough, and it's clear that this topic has sparked a solid conversation full of useful information with every answer having multiple comments contributing to the discussion. While this is a solid example of a well thought out question sparking intelligent conversion in the comments, there are many examples of bad questions with negative votes and sometimes harsh comments.
 
-<blockquote>
 #### [Arrays algorithms](https://stackoverflow.com/questions/59996519/arrays-algorithms)
+<blockquote>
 <br><br>
 <p>I've tried solving algorithm problem for several hours without any success, so i ended up here.
 <br><br>
