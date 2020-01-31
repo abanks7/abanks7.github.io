@@ -17,15 +17,18 @@ Navigating the deep waters of StackOverflow isn't necessarily easy, and sometime
 
 To demonstrate how a smart question can foster smart answers that not only solve a problem, but serve to enhance the understanding of those involved in the discussion and anyone in the future who might come across it, I searched StackOverlow for a question on a topic I know nothing about.
 
->#### [Does the C++ standard allow for an uninitialized bool to crash a program?](https://stackoverflow.com/questions/54120862/does-the-c-standard-allow-for-an-uninitialized-bool-to-crash-a-program)
->
->I know that an *"undefined behaviour"* in C++ can pretty much allow the compiler to do anything it wants. However, I had a crash that surprised me, as I assumed that the code was safe enough.
->
->In this case, the real problem happened only on a specific platform using a specific compiler, and only if optimization was enabled.
->
->I tried several things in order to reproduce the problem and simplify it to the maximum. Here's an extract of a function called `Serialize`, that would take a bool parameter, and copy the string `true` or `false` to an existing destination buffer.
->
->Would this function be in a code review, there would be no way to tell that it, in fact, could crash if the bool parameter was an uninitialized value?
+#### [Does the C++ standard allow for an uninitialized bool to crash a program?](https://stackoverflow.com/questions/54120862/does-the-c-standard-allow-for-an-uninitialized-bool-to-crash-a-program)
+
+<blockquote>
+I know that an *"undefined behaviour"* in C++ can pretty much allow the compiler to do anything it wants. However, I had a crash that surprised me, as I assumed that the code was safe enough.
+<br><br>
+In this case, the real problem happened only on a specific platform using a specific compiler, and only if optimization was enabled.
+<br><br>
+I tried several things in order to reproduce the problem and simplify it to the maximum. Here's an extract of a function called `Serialize`, that would take a bool parameter, and copy the string `true` or `false` to an existing destination buffer.
+<br><br>
+Would this function be in a code review, there would be no way to tell that it, in fact, could crash if the bool parameter was an uninitialized value?
+<footer>—Remz</footer>
+</blockquote>
 
 I'm not familiar with C++, but the author that posed the question has given information in a clear and concise way which allows me to begin to understand what is going on. They mention specific platform and specific compiler using certain arguments, they emphasize what they have done to reproduce the problem, and have not only given code snippets that are well commented but also included a link to an online compiler that reproduces the problem at hand. They have shown their understanding of the language and their pursuit of finding the answer on their own before asking for help from others. At the end of their post, they sum up the main question into a single sentence that gives others a starting point to provide solutions.
 
@@ -47,6 +50,6 @@ It's almost too easy to see the mistakes made here. The author of this question 
 
 > Please edit your post with your attempt at resolving the requirements.
 
-> What's wrong with the brute-force technique?
+<q>What's wrong with the brute-force technique?</q>
 
 There is not much to be learned from reading the questions and answers, other than the insight that this must not be the way to get help on StackOverflow. Had the user spent just a small amount of their time searching for answers, figuring out a direction, and showing at least some attempt at a solution, it is likely that the community would have been more receptive in helping this budding programmer out. The internet is full of smart and willing to help programmers that **want** to help other grow their skillsets, but one must put in effort to get it in return. "You get out what you put in."
