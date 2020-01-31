@@ -33,7 +33,6 @@ The answers are thorough, and it's clear that this topic has sparked a solid con
 
 #### [Arrays algorithms](https://stackoverflow.com/questions/59996519/arrays-algorithms)
 <blockquote>
-<br><br>
 <p>I've tried solving algorithm problem for several hours without any success, so i ended up here.
 <br><br>
 We are given two initiger arrays t1[N] and t2[N]. We are connecting  elements from t1 and t2 in pairs (one element from each array) so that,  sum of elements chosen from t1 was equal to sum of elements from t2.  Please write a function that given t1,t2 will return maximal number of  pairs or 0 if such a pair doesn't exist.
