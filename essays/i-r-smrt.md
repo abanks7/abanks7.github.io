@@ -18,11 +18,11 @@ Navigating the deep waters of StackOverflow isnt necessarily easy, and sometimes
 To demonstrate how a smart question can foster smart answers that not only solve a problem, but serve to enhance the understanding of those involved in the discussion and anyone in the future who might come across it, I searched StackOverlow for a question on a topic I know nothing about.
 
 >### [Does the C++ standard allow for an uninitialized bool to crash a program?](https://stackoverflow.com/questions/54120862/does-the-c-standard-allow-for-an-uninitialized-bool-to-crash-a-program)
-
->I know that an "undefined behaviour" in C++ can pretty much allow the compiler to do anything it wants. However, I had a crash >that surprised me, as I assumed that the code was safe enough.
+>
+>I know that an *"undefined behaviour"* in C++ can pretty much allow the compiler to do anything it wants. However, I had a crash >that surprised me, as I assumed that the code was safe enough.
 >
 >In this case, the real problem happened only on a specific platform using a specific compiler, and only if optimization was >enabled.
 >
->I tried several things in order to reproduce the problem and simplify it to the maximum. Here's an extract of a function called >Serialize, that would take a bool parameter, and copy the string true or false to an existing destination buffer.
+>I tried several things in order to reproduce the problem and simplify it to the maximum. Here's an extract of a function called >`Serialize`, that would take a bool parameter, and copy the string `true` or `false` to an existing destination buffer.
 >
 >Would this function be in a code review, there would be no way to tell that it, in fact, could crash if the bool parameter was >an uninitialized value?
