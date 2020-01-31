@@ -31,13 +31,16 @@ I'm not familiar with C++, but the author that posed the question has given info
 
 The answers are thorough, and it's clear that this topic has sparked a solid conversation full of useful information with every answer having multiple comments contributing to the discussion. While this is a solid example of a well thought out question sparking intelligent conversion in the comments, there are many examples of bad questions with negative votes and sometimes harsh comments.
 
->#### [Arrays algorithms](https://stackoverflow.com/questions/59996519/arrays-algorithms)
->
->I've tried solving algorithm problem for several hours without any success, so i ended up here.
->
->We are given two initiger arrays t1[N] and t2[N]. We are connecting  elements from t1 and t2 in pairs (one element from each array) so that,  sum of elements chosen from t1 was equal to sum of elements from t2.  Please write a function that given t1,t2 will return maximal number of  pairs or 0 if such a pair doesn't exist.
->
->I simply can't find any better way than brute-force check of all posible sub-arrays. Thanks for help!
+<blockquote>
+#### [Arrays algorithms](https://stackoverflow.com/questions/59996519/arrays-algorithms)
+<br><br>
+<p>I've tried solving algorithm problem for several hours without any success, so i ended up here.
+<br><br>
+We are given two initiger arrays t1[N] and t2[N]. We are connecting  elements from t1 and t2 in pairs (one element from each array) so that,  sum of elements chosen from t1 was equal to sum of elements from t2.  Please write a function that given t1,t2 will return maximal number of  pairs or 0 if such a pair doesn't exist.
+<br><br>
+I simply can't find any better way than brute-force check of all posible sub-arrays. Thanks for help!</p>
+<footer>—jason</footer>
+</blockquote>
 
 It's almost too easy to see the mistakes made here. The author of this question has stated right in the beginning that they have "given up" along with a poorly worded and confusing attempt at explaining the problem they are having. They have not given any indication they have looked at other resources, and have not provided any code snippets showing their attempt at the problem. At the end they do mention that they have tried one approach, but offer no insight as to any other possible solutions to the problem. Other users of StackOverflow are quick to point this out in the comments:
 
