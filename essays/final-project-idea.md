@@ -50,4 +50,5 @@ Some considerations after the basic functions have been implemented:
 - Create a more elaborate rating system
 - Allow users to post comments about a discount
 - Allow user to mark an expired discount for possible admin deletion
-- Map that shows location of business
+- Low rated discounts can be flagged for admin deletion
+- Map that shows location of businesses
