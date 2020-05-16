@@ -23,11 +23,11 @@ The final project for Spring 2020 class of ICS 314 students was a team project c
 
 #### The Website
 
-<img class="ui large image" src="../images/m3_session.png">
+<img class="ui large image centered" src="../images/m3_session.png">
 
 Our application we developed was named Study UHp. It allowed students to register for an account, after which they could access the listing of upcoming study sessions available in both a table view and calendar view, and join the session if desired. Users could also create a session to which other users could join, and edit their session information if needed.
 
-<img class="ui large image" src="../images/m3_calendar.png">
+<img class="ui large image centered" src="../images/m3_calendar.png">
 
 <br>
 
@@ -37,11 +37,11 @@ The session listing would display all the necessary information about it, includ
 
 <br>
 
-Chances are by the time you read this the production version is no longer online, but you can try this link:
+Chances are the production version is no longer online, but you can try this link:
 
 [http://studyuhp.meteorapp.com/](http://studyuhp.meteorapp.com/)
 
-However, the full source code is available to view at:
+However, the full source code is available at:
 
 [https://github.com/study-uhp/study-uhp](https://github.com/study-uhp/study-uhp)
 
