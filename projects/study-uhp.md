@@ -53,7 +53,7 @@ Early on we discovered a problem with our application regarding the session info
 
 Utilizing the [faker.js](https://github.com/marak/Faker.js/) library which could create large amounts of fake information very quickly, [dayjs](https://github.com/iamkun/dayjs) for handling anything related to dates and times, along with creating some pre-defined arrays of student-specific and Hawaii-specific data to pluck and sample from using [Underscore](https://github.com/jashkenas/underscore), I created two data generators in order to have a much more rich and realistic database for the website to utilize. I built in sets of "rules" that would first create an entire database of users, pulling information from our course listing database, allowing different year students to only have a range of classes that would be fitting to their level. Along with their course listing bases on their random year level, it would generate a random major, first name, last name, email address @hawaii.edu, pull in a random avatar image and a pseudo-random user bio. Values were cached in order to keep consistency among things like the generate email address and bio instead of replacing the information with a new random user each time.
 
-```jsx
+```javascript
   // A portion of the code from usergenerator.js
   if (year === 'Freshman') {
     const s = _.filter(courses, function (c) {
@@ -75,7 +75,7 @@ Utilizing the [faker.js](https://github.com/marak/Faker.js/) library which could
 
 After populating the database with the generated users, the session generator uses that information to build a database of sessions. It generate them based on a range of days and times from the current date forward, and with a weighted realistic length. It picks a course at random and assigns the session to a user based on the user database, and then a picks a random selection of participants for both grasshopper's and sensei's while taking care not to duplicate any users across any category. The faker.js library provides topics and descriptions which are just random Latin words, something that is not completely ideal but saves a large amount of time of trying to realistically input ones ourselves.
 
-```jsx
+```javascript
   // A portion of the code from sessiongenerator.js
   const sessionObj = {
     course: _.sample(courselist),
